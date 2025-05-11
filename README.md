@@ -165,10 +165,21 @@ All payment-related data is transmitted and stored securely. Integration with tr
 All incoming data is validated and sanitized to prevent injection attacks (e.g., SQL injection, XSS).
 
 **Why it matters:** Protects the database and front end from malicious data inputs and preserves the integrity of the application.
-
 ---
-
 These security layers are foundational for building a trustworthy and reliable Airbnb-like platform.
+---
+## 🔁 CI/CD Pipeline
+
+CI/CD (Continuous Integration and Continuous Deployment) pipelines automate the building, testing, and deployment of code. This approach helps development teams detect bugs early, deliver features faster, and maintain high-quality code through frequent integration and deployment.
+
+In this project, a CI/CD pipeline ensures that every change pushed to the repository is automatically tested and deployed if it passes the necessary checks. This process improves reliability, speeds up development, and reduces manual errors.
+
+### ⚙️ Tools Used:
+- **GitHub Actions**: Automates testing, linting, and deployment directly from GitHub.
+- **Docker**: Provides containerized environments for consistent builds and deployments across different platforms.
+- **Heroku / Vercel / AWS (optional)**: Can be used for deploying the backend or front-end services with minimal setup.
+
+With CI/CD in place, this Airbnb Clone project can scale efficiently and be safely updated in a collaborative development environment.
 
 ---
 
