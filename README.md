@@ -2,6 +2,29 @@
 
 ## Project Overview
 This project is a clone of the AirBnB web application. The goal is to recreate key features of the platform including listing properties, booking stays, and managing users. This is a foundational project in backend web development.
+---
+
+## 🧩 Feature Breakdown
+
+The Airbnb Clone project is designed to replicate key functionalities of the real Airbnb platform. Below are the core features implemented in the application:
+
+### 👤 User Management
+Users can register, log in, and manage their profiles. Depending on their role (guest, host, or admin), they can perform actions such as booking properties, listing properties, or managing platform operations.
+
+### 🏠 Property Management
+Hosts can list properties with details such as name, description, location, and price per night. They can also edit or remove their listings, helping them maintain an up-to-date rental inventory.
+
+### 📅 Booking System
+Guests can search and book available properties for specific dates. The system calculates the total cost and prevents double-booking, ensuring a smooth reservation experience.
+
+### 💳 Payment Processing
+Each booking includes a payment record that tracks the amount paid, payment method, and payment date. This ensures transparency and reliability in financial transactions between guests and hosts.
+
+### ⭐ Reviews and Ratings
+After completing a stay, users can leave a review and rating for the property. This feature promotes trust within the community and helps future guests make informed decisions.
+
+### 💬 Messaging System
+Users can send messages to one another to coordinate bookings, ask questions, or resolve issues. This peer-to-peer communication supports a more engaging and efficient booking process.
 
 ---
 ## 📊 Database Design
