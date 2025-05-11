@@ -129,6 +129,48 @@ Enables users to communicate with one another.
 - **Messages** connect users in a many-to-many communication model
 
 ---
+## 🔒 API Security
+
+Security is a critical component of this Airbnb Clone project, especially because it handles sensitive user information, payments, and communication. The following measures are implemented to ensure the backend APIs remain secure and reliable:
+
+### 🔐 Authentication
+All API endpoints that involve user-specific actions require secure authentication using tokens (e.g., JWT). This ensures that only verified users can access their data and perform authorized operations.
+
+**Why it matters:** Prevents unauthorized access to user accounts and ensures only legitimate users can interact with the system.
+
+---
+
+### 🛡️ Authorization
+Role-based access control (RBAC) is used to determine user privileges. For instance, only hosts can create or update properties, and only the booking owner can cancel a booking.
+
+**Why it matters:** Protects the system from privilege escalation and ensures users cannot perform actions beyond their access level.
+
+---
+
+### 🚦 Rate Limiting
+API endpoints are rate-limited to prevent abuse, brute force attacks, and denial-of-service (DoS) attempts. This helps maintain system stability and fair usage.
+
+**Why it matters:** Defends against automated attacks and keeps the system responsive for all users.
+
+---
+
+### 🔒 Secure Payments
+All payment-related data is transmitted and stored securely. Integration with trusted payment providers like Stripe or PayPal includes best practices for handling sensitive financial information.
+
+**Why it matters:** Ensures the protection of financial data and builds user trust in the platform.
+
+---
+
+### 🧪 Input Validation & Sanitization
+All incoming data is validated and sanitized to prevent injection attacks (e.g., SQL injection, XSS).
+
+**Why it matters:** Protects the database and front end from malicious data inputs and preserves the integrity of the application.
+
+---
+
+These security layers are foundational for building a trustworthy and reliable Airbnb-like platform.
+
+---
 
 ## Technology Stack
 - **Programming Language:** Python 3
