@@ -9,3 +9,6 @@ This project is a clone of the AirBnB web application. The goal is to recreate k
 - **Frontend:** HTML5, CSS3, JavaScript
 - **Database:** MySQL or SQLite
 - **Version Control:** Git & GitHub
+
+## Team Roles
+- **Backend Developer:** Vincent Dushime
